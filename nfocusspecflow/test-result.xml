@@ -1,0 +1,46 @@
+<test-run id="2" duration="4.010623000000001" testcasecount="4" total="4" passed="1" failed="0" inconclusive="0" skipped="3" result="Passed" start-time="2022-09-14T 09:09:16Z" end-time="2022-09-14T 09:09:21Z">
+  <test-suite type="Assembly" name="nfocusspecflow.dll" fullname="C:\Users\BibekRai\Desktop\nfocusspecflow\nfocusspecflow\bin\Debug\net6.0\nfocusspecflow.dll" total="4" passed="1" failed="0" inconclusive="0" skipped="3" result="Passed" start-time="2022-09-14T 09:09:17Z" end-time="2022-09-14T 09:09:21Z" duration="4.010623">
+    <test-suite type="TestSuite" name="nfocusspecflow" fullname="nfocusspecflow" total="4" passed="1" failed="0" inconclusive="0" skipped="3" result="Passed" start-time="2022-09-14T 09:09:17Z" end-time="2022-09-14T 09:09:21Z" duration="4.010623">
+      <test-suite type="TestSuite" name="Features" fullname="nfocusspecflow.Features" total="4" passed="1" failed="0" inconclusive="0" skipped="3" result="Passed" start-time="2022-09-14T 09:09:17Z" end-time="2022-09-14T 09:09:21Z" duration="4.010623">
+        <test-suite type="TestFixture" name="GoogleFeature" fullname="nfocusspecflow.Features.GoogleFeature" classname="nfocusspecflow.Features.GoogleFeature" total="4" passed="1" failed="0" inconclusive="0" skipped="3" result="Passed" start-time="2022-09-14T 09:09:17Z" end-time="2022-09-14T 09:09:21Z" duration="4.010623">
+          <test-case name="CheckingMultipleResults" fullname="nfocusspecflow.Features.GoogleFeature.CheckingMultipleResults" methodname="CheckingMultipleResults" classname="GoogleFeature" result="Skipped" start-time="2022-09-14T 09:09:17Z" end-time="2022-09-14T 09:09:17Z" duration="0.00138" asserts="0" seed="549423332">
+            <properties>
+              <property name="Category" value="Smoke" />
+            </properties>
+            <output><![CDATA[Ignored scenario
+]]></output>
+          </test-case>
+          <test-case name="SearchGoogleForEdgewords" fullname="nfocusspecflow.Features.GoogleFeature.SearchGoogleForEdgewords" methodname="SearchGoogleForEdgewords" classname="GoogleFeature" result="Passed" start-time="2022-09-14T 09:09:17Z" end-time="2022-09-14T 09:09:21Z" duration="4.001762" asserts="0" seed="1632837305">
+            <properties>
+              <property name="Category" value="Smoke" />
+              <property name="Category" value="Regression" />
+            </properties>
+            <output><![CDATA[Given Google is open
+-> done: GoogleStepDefinitions.GivenIAmOnTheGoogleHomepage() (0.5s)
+When I search for 'Edgewords'
+-> done: GoogleStepDefinitions.WhenISearchForEdgewords("Edgewords") (1.4s)
+Then 'Edgewords' is the top result
+-> done: GoogleStepDefinitions.ThenEdgewordsIsTheTopResult("Edgewords") (1.0s)
+
+]]></output>
+          </test-case>
+          <test-case name="SearchGoogleForMultipleThings(&quot;Edgewords&quot;,&quot;Automated Software Testing&quot;,null)" fullname="nfocusspecflow.Features.GoogleFeature.SearchGoogleForMultipleThings(&quot;Edgewords&quot;,&quot;Automated Software Testing&quot;,null)" methodname="SearchGoogleForMultipleThings(&quot;Edgewords&quot;,&quot;Automated Software Testing&quot;,null)" classname="GoogleFeature" result="Skipped" start-time="2022-09-14T 09:09:21Z" end-time="2022-09-14T 09:09:21Z" duration="0.003733" asserts="0" seed="750020239">
+            <properties>
+              <property name="Category" value="Smoke" />
+            </properties>
+            <output><![CDATA[OneTimeSetUp: Ignored scenario
+]]></output>
+          </test-case>
+          <test-case name="SearchGoogleForMultipleThings(&quot;BBC&quot;,&quot;The best of the BBC&quot;,null)" fullname="nfocusspecflow.Features.GoogleFeature.SearchGoogleForMultipleThings(&quot;BBC&quot;,&quot;The best of the BBC&quot;,null)" methodname="SearchGoogleForMultipleThings(&quot;BBC&quot;,&quot;The best of the BBC&quot;,null)" classname="GoogleFeature" result="Skipped" start-time="2022-09-14T 09:09:21Z" end-time="2022-09-14T 09:09:21Z" duration="0.003748" asserts="0" seed="1490512701">
+            <properties>
+              <property name="Category" value="Smoke" />
+            </properties>
+            <output><![CDATA[OneTimeSetUp: Ignored scenario
+]]></output>
+          </test-case>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+    <errors />
+  </test-suite>
+</test-run>
